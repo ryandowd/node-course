@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+// Captial letters denote a variable that is global and should not change
 const PORT = 3000;
 const middleware = require('./middleware.js');
 
